@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="conversionTypes">
+        <item>kph</item>
+        <item>mph</item>
+        <item>m/s</item>
+        <item>kn</item>
+     </string-array>
+</resources>

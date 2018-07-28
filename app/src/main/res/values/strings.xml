@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Speed Converter</string>
+    <string name="convert_button">CONVERT</string>
+    <string name="Title_text">Enter a value to convert:</string>
+    <string name="hint_text">value</string>
+    <string name="KPH_unit_textView">kph</string>
+    <string name="MPH__unit_textView">mph</string>
+    <string name="MS_unit_textView">m/s</string>
+    <string name="KN_unit_textView">kn</string>
+</resources>

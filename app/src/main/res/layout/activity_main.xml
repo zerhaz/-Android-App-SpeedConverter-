@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4d4d4d"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/header_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="84dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/Title_text"
+        android:textColor="#dddddd"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/amount_text_view"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="84dp"
+        android:layout_marginTop="52dp"
+        android:backgroundTint="#9d9d9d"
+        android:ems="10"
+        android:hint="@string/hint_text"
+        android:inputType="numberDecimal"
+        android:textAlignment="textEnd"
+        android:paddingEnd="15dp"
+        android:textColor="#dddddd"
+        android:textColorHint="#666666"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Spinner
+        android:id="@+id/unit_type_spinner"
+        android:layout_width="110dp"
+        android:layout_height="46dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="52dp"
+        android:textColor="#dddddd"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/amount_text_view"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/convert_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="116dp"
+        android:layout_marginTop="124dp"
+        android:width="150dp"
+        android:background="#363636"
+        android:text="@string/convert_button"
+        android:textColor="#dddddd"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/KPH_ValueTextView"
+        android:layout_width="127dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="230dp"
+        android:text="-"
+        android:textColor="#dddddd"
+        android:textAlignment="textEnd"
+        android:paddingEnd="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/KPH_UnitTextView"
+        android:layout_width="70dp"
+        android:layout_height="29dp"
+        android:layout_marginEnd="116dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="230dp"
+        android:text="@string/KPH_unit_textView"
+        android:textColor="#a6a6a6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/KPH_ValueTextView"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/MPH_ValueTextView"
+        android:layout_width="127dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="280dp"
+        android:text="-"
+        android:textColor="#dddddd"
+        android:textAlignment="textEnd"
+        android:paddingEnd="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/MPH_UnitTextView"
+        android:layout_width="70dp"
+        android:layout_height="29dp"
+        android:layout_marginEnd="116dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="280dp"
+        android:text="@string/MPH__unit_textView"
+        android:textColor="#a6a6a6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/MPH_ValueTextView"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/MS_ValueTextView"
+        android:layout_width="127dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="330dp"
+        android:text="-"
+        android:textColor="#dddddd"
+        android:textAlignment="textEnd"
+        android:paddingEnd="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/MS_UnitTextView"
+        android:layout_width="70dp"
+        android:layout_height="29dp"
+        android:layout_marginEnd="116dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="330dp"
+        android:text="@string/MS_unit_textView"
+        android:textColor="#a6a6a6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/MS_ValueTextView"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/KN_ValueTextView"
+        android:layout_width="127dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="380dp"
+        android:text="-"
+        android:textColor="#dddddd"
+        android:textAlignment="textEnd"
+        android:paddingEnd="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/KN_UnitTextView"
+        android:layout_width="70dp"
+        android:layout_height="29dp"
+        android:layout_marginEnd="116dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="380dp"
+        android:text="@string/KN_unit_textView"
+        android:textColor="#a6a6a6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/KN_ValueTextView"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</android.support.constraint.ConstraintLayout>
+
+
