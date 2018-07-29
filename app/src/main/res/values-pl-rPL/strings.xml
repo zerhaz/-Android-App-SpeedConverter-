@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Speed Converter</string>
+    <string name="convert_button">KONWERTUJ</string>
+    <string name="Title_text">Podaj wartość do konwersji:</string>
+    <string name="hint_text">wartość</string>
+    <string name="KPH_unit_textView">kph</string>
+    <string name="MPH__unit_textView">mph</string>
+    <string name="MS_unit_textView">m/s</string>
+    <string name="KN_unit_textView">kn</string>
+    <string name="toast_text">Wpisz wartość!</string>
+</resources>

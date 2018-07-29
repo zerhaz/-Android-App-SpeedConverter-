@@ -1,5 +1,6 @@
 package pl.zerhaz.speedconverter;
 
+import android.content.Context;
 import android.graphics.Color;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -10,6 +11,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Spinner;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import java.sql.SQLOutput;
 import java.text.DecimalFormat;
@@ -104,6 +106,16 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void convertSpeed(short currentUnit){
+
+        if(amountTextView.getText().length() == 0){
+            Context context = getApplicationContext();
+            CharSequence text = getString(R.string.toast_text);
+            int duration = Toast.LENGTH_SHORT;
+            Toast toast = Toast.makeText(context, text, duration);
+            toast.show();
+
+            return;
+        }
 
         if (currentUnit == 1){
 

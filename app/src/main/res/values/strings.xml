@@ -7,4 +7,5 @@
     <string name="MPH__unit_textView">mph</string>
     <string name="MS_unit_textView">m/s</string>
     <string name="KN_unit_textView">kn</string>
+    <string name="toast_text">Enter a value!</string>
 </resources>
