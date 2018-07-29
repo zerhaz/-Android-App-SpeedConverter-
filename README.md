@@ -15,3 +15,4 @@ This app converts speed units:
 
 Available App Languages:
 -ENG
+-POL
